@@ -24,7 +24,7 @@ This project utilizes computer vision techniques to detect eyes drowsiness in re
     pip install opencv-python dlib imutils scipy
     ```
 
-3. Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from [dlib's official website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the project directory.
+3. Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from [dlib's official website]([http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2](http://dlib.net/face_landmark_detection.py.html)) and place it in the project directory.
 
 ## Usage
 
@@ -47,17 +47,3 @@ The script uses the dlib library to detect facial landmarks and calculate the ey
 - `thresh`: EAR threshold for drowsiness detection.
 - `frame_check`: Number of consecutive frames below the threshold to trigger an alert.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [dlib](http://dlib.net/)
-- [OpenCV](https://opencv.org/)
-- [Imutils](https://github.com/jrosebr1/imutils)
-- [Scipy](https://www.scipy.org/)
-
-## Author
-
-Yassine Aoun
