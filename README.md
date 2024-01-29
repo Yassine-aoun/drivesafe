@@ -24,7 +24,7 @@ This project utilizes computer vision techniques to detect eyes drowsiness in re
     pip install opencv-python dlib imutils scipy
     ```
 
-3. Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from [dlib's official website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the project directory.
+3. Download the shape predictor file (`shape_predictor_68_face_landmarks.dat`) from [[dlib's official website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)](http://dlib.net/face_landmark_detection.py.html) and place it in the project directory.
 
 ## Usage
 
